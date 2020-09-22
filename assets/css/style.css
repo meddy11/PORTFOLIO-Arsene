@@ -1,13 +1,4 @@
-/*
- * Theme Name: 
- * Theme URI: 
- * Author: Milan Savov
- * Author URI/Mail: milan.savov@gmail.com
- * Version: 1.0
- * */
 
-/* FONT
-================================================== */
 @font-face {
   font-family: 'fontello';
   src: url('../fonts/fontello.eot?37927580');
@@ -20,7 +11,7 @@
   font-style: normal;
 }
  
- [class^="icon-"]:before, [class*=" icon-"]:before {
+ /* [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -36,7 +27,7 @@
   margin-left: .2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
  
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
@@ -531,7 +522,7 @@ html, body {
     position: fixed;
     bottom: 0;
     padding: 30px 0;
-    width: 100%;
+    width: auto;
     background-color: #212121;
     z-index: -1;
 }
